@@ -1,0 +1,6 @@
+footer{
+    min-height: 11.25rem;
+    background-color: var(--color-07);
+    padding: 2rem 4rem;
+    color: white;
+}

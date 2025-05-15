@@ -1,0 +1,22 @@
+nav {
+    padding: 1.9rem 4rem;
+    background-color: var(--color-08);
+    position: fixed;
+    z-index: 100px;
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    top: 0;
+}
+ul{
+    list-style-type: none;
+    display: flex;
+    gap: 1rem;
+}
+a{
+    padding: 0.5rem 1rem;
+    transition: 0.3s;
+    color: white;
+    text-decoration: none;
+&:hover {color: var(--color-10);}
+}
